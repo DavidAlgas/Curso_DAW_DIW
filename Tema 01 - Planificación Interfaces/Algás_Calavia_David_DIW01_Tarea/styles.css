@@ -1,0 +1,43 @@
+html *
+{
+   font-family: Arial !important;
+}
+
+header {
+    width: 1024px;
+    height: 100px;
+    padding-top: 10px;
+    text-align: left;
+    background-color: #AA3939;
+    color: #FFAAAA;
+}
+
+footer {
+    width: 1024px;
+    text-align: center;
+    background-color: #407F7F;
+    color: #003333;
+}
+
+table {
+    border: px solid black;
+    width: 1024px;
+}
+
+.seccion1 {
+    height: 450px;
+    width: 176px;
+}
+
+.contenido {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+.nav {
+    background-color: #AA6C39;
+    color: #FFD1AA;
+}

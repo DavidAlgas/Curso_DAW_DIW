@@ -1,0 +1,144 @@
+/*---------------------------------------------
+ Elementos del Body
+ ---------------------------------------------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*---------------------------------------------
+ Seccion Cabecera
+ ---------------------------------------------*/
+
+.cabecera {
+    width: 920px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(#3E9722, #CAE646, white);
+    border-radius: 25px;
+}
+
+.icono {
+    position: relative;
+    top: 50px;
+    text-align: left;
+    width: 150px;
+    line-height: 90%;
+}
+
+.titulo {
+    font-size: 15px;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    background: linear-gradient(to right, #CAE646, white, #CAE646);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu li:hover {
+    background: #E58C24;
+}
+
+.navegador {
+    position: relative;
+    float: right;
+}
+
+
+/*---------------------------------------------
+ Seccion Contenido
+ ---------------------------------------------*/
+
+.cabeceras {
+    background-color: #3C74E6;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.Izquierda {
+    width: 220px;
+    float: left
+}
+
+.Central {
+    width: 480px;
+    padding-left: 20px;
+    float: left;
+}
+
+.Derecha {
+    float: left;
+    width: 180px;
+    padding-left: 20px;
+}
+
+a {
+    color: #3E9722;
+}
+
+.unidadesTrabajo {
+    line-height: 1px;
+    padding-left: 19px;
+}
+
+.formulario {
+    padding-left: 19px;
+}
+
+.imagen2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.contenido01 {
+    word-wrap: break-word;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.imagen1 {
+    float: left;
+    padding-right: 10px;
+}
+
+.fecha {
+    float: right;
+    padding-right: 10px;
+    padding-top: 6px;
+    font-size: 10px;
+}
+
+.contenido {
+    border-radius: 25px;
+    width: 960px;
+}
+
+hr {
+    border-bottom: dotted 2px;
+}
+
+
+/*---------------------------------------------
+ Bloque Derecho
+ ---------------------------------------------*/
+
+.piePagina {
+    width: 960px;
+    text-align: center;
+    clear: both;
+    border-radius: 10px;
+    border: 3px solid #BADA55;
+}
